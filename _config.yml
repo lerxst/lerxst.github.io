@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://ryansnell.me" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Ryan Snell
+  avatar: 
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Sharing my technology knowledge byte by byte." # used by search engines
 
   # Header and footer text
   header_text:
@@ -24,7 +24,7 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "lerxst"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -34,7 +34,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "rsnell1"
   wordpress:
   youtube:
 
@@ -59,7 +59,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
